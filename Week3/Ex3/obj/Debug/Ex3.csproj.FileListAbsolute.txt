@@ -1,0 +1,14 @@
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\bin\Debug\Ex3.exe.config
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\bin\Debug\Ex3.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\bin\Debug\Ex3.pdb
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\MainWindow.g.cs
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\App.g.cs
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3_MarkupCompile.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3_MarkupCompile.lref
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\MainWindow.baml
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.g.resources
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.Properties.Resources.resources
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.csproj.GenerateResource.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week3\Ex3\obj\Debug\Ex3.pdb

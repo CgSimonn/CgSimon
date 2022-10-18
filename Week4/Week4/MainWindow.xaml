@@ -1,0 +1,46 @@
+﻿<Window x:Class="Week4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week4"
+        mc:Ignorable="d"
+        Icon = "relaxed.ico"
+        Title="Introduction to Data Binding" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:CreditsToPercentageConverter x:Key="percentConverter"/>
+        <local:RelativeToAbsoluteConverter x:Key="absoluteConverter"/>
+    </Window.Resources>
+    <Canvas  >
+        <Label Content="{Binding ID}" FontSize="30" Height="69" Width="262" RenderTransformOrigin="1,0.851" Canvas.Left="33" Canvas.Top="24"  />
+        <Label Content="{Binding Fullname}" FontSize="30" Canvas.Left="33" Canvas.Top="109" Height="67" Width="286" RenderTransformOrigin="-0.194,0.498"  />
+        <Button Content="Calculate_Age" Click="Button_Click" RenderTransformOrigin="4.918,5.205" Height="67" Width="74" Canvas.Left="361" Canvas.Top="273" />
+        <ProgressBar Value="{Binding Credits}"
+                     Minimum="0" Maximum="130"
+                     Width="306" Height="47" Canvas.Left="258" Canvas.Top="202"/>
+        <TextBlock Width="175" Canvas.Left="485" Canvas.Top="174" Height="25">
+            <Run Text="{Binding Credits}" FontSize="20"/>
+            -
+            <Run Text="{Binding TotalCredits}" FontSize="20"/>
+        </TextBlock>
+        <TextBlock Text="{Binding Credits,Converter={StaticResource percentConverter}}" FontSize="20" Canvas.Left="361" Canvas.Top="170" Width="161" RenderTransformOrigin="0.653,0.367"/>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="{Binding AvatarPath,Converter={StaticResource absoluteConverter}}"/>
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect />
+            </Border.Effect>
+        </Border>
+        <Image Source="{Binding AvatarPath,Converter={StaticResource absoluteConverter}}" Width="187" Height="89" RenderTransformOrigin="1.901,0.945" Canvas.Left="338" Canvas.Top="20">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.043"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="2.393"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Canvas>
+</Window>

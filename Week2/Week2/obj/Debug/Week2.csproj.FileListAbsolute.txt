@@ -1,0 +1,7 @@
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\bin\Debug\Properties\Data.txt
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\obj\Debug\Week2.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\obj\Debug\Week2.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\obj\Debug\Week2.pdb
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\bin\Debug\Week2.exe.config
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\bin\Debug\Week2.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\Week2\bin\Debug\Week2.pdb

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Week6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:RelativeToAbsoluteConverter x:Key="absoluteConverter"/>
+    </Window.Resources>
+    <Canvas>
+        <Label Content="Source" FontSize ="35" Canvas.Left="324" Canvas.Top="143"/>
+        <TextBox x:Name="sourceTextBox" Text="{Binding Name}" Height="38" Width="176" Canvas.Left="292" Canvas.Top="195" />
+        <Label  Content="{Binding Credits}" Width="154" Canvas.Top="233" Canvas.Left="356"/>
+        <Image Name="avatarImage" Source="{Binding Avatar,Converter={StaticResource absoluteConverter}}" Width="145" Height="112" Canvas.Left="83" Canvas.Top="88"/>
+        <ProgressBar Minimum="0" Maximum="100" Value="{Binding Credits}" Width="234" Height="14" Canvas.Left="264" Canvas.Top="255"/>
+        <Button x:Name="sendButton" Content ="Send" Height="30" Width="80" Canvas.Left="338" Canvas.Top="273" Click="sentButtonClick"/>
+
+    </Canvas>
+</Window>

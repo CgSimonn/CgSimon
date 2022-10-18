@@ -1,0 +1,12 @@
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\bin\Debug\Landmarks.exe.config
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\bin\Debug\Landmarks.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\bin\Debug\Landmarks.pdb
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks_MarkupCompile.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks_MarkupCompile.lref
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks.g.resources
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks.exe
+C:\Users\Hoang Minh\source\repos\ADS_OOP_Theory\Week2\WpfApp1\obj\Debug\Landmarks.pdb

@@ -1,0 +1,13 @@
+Apple - Apple.jpg
+Banana - Banana.jpg
+Cherry - Cherry.jpg
+Coconut - Coconut.jpg
+DragonFruit - DragonFruit.jpg
+Grape - Grape.jpg
+JackFruit - Jackfruit.jpg
+Oragne - Orange.jpg
+Papaya - Papaya.jpg
+Pear - Pear.jpg
+Rambutan - Rambutan.jpg
+Soursop - Soursop.jpg
+Watermelon - Watermelon.jpg
